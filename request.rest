@@ -1,0 +1,47 @@
+POST http://localhost:3000/api/colchoes
+Content-Type: application/json
+
+{
+  "name": "RPikenocat",
+  "dimensions":"Esmeralda",
+  "price": 99999,
+  "description": "Nasceu pra jogar de singed",
+  "emPromocao": false,
+  "promocao":300,
+  "image": "Lostruin"
+}
+
+###
+GET http://localhost:3000/api/colchoes/6605c10a8df6125808c1d154
+
+###
+
+GET http://localhost:3000/api/colchoes/
+
+
+###
+
+DELETE  http://localhost:3000/api/colchoes/6605ace14aa5004519c9245d
+
+
+###
+PUT http://localhost:3000/api/colchoes/6605ac999c4867df357929ec
+Content-Type: application/json
+
+{
+  "name": "RPikenocat",
+  "dimensions":"Esmeralda",
+  "price": 99999,
+  "description": "Nasceu pra jogar de singed",
+  "emPromocao": false,
+  "promocao":300,
+  "image": "Lostruin"
+}
+
+
+###
+
+POST http://localhost:3000/api/images
+Content-Type: application/json
+
+ 
